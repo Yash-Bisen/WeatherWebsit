@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    {{>headerlink}}
+</head>
+<body>
+    
+
+   {{>navbar}}
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to Weather app</p>
+                        <h1>Get the letest <span>Weather</span> Info of your City</h1>
+                        <a href="/weather"><button>cheack now</button></a>
+                        
+                    </div>
+                    <div class="col-md-6 col-12 main_header_right">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/phone.png" class=" w-100" alt="first">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/R.jpg" class=" w-100" alt="second">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/t.jpg" class=" w-100" alt="third">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   {{>footer}}
+</body>
+</html>
